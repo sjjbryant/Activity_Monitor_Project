@@ -1,9 +1,4 @@
 ## CodeBook
-A codebook describes the data and the variables (column names) in the data set. 
-
-Basically, describe any transformation to the original column names by way of listing each variable in your tidy data and a brief description which can be found in one of the existing files provided for the assignment. If you have some database background you might liken a codebook to a form of data dictionary. 
-
-Any units of measurement should be included; read the existing documentation for a clue about the units for this assignment; it is easy to overlook.
 
 This codebook consist of following information
 
@@ -125,21 +120,37 @@ These signals were used to estimate variables of the feature vector for each pat
  
 ###Features
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
                 
  
@@ -153,7 +164,11 @@ angle   : Angle between to vectors
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
+
 tBodyAccMean
+
 tBodyAccJerkMean
+
 tBodyGyroMean
+
 tBodyGyroJerkMean

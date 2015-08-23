@@ -71,11 +71,11 @@ combine back to single data frame with subject, activity, means, and standard de
 melt by activity and subject
 use gsub to alter feature labels
 
-## recast into tidy data
+## Recast into tidy data
 
 use subject and activity by variable and mean
 
-## create file
+## Create file
 
 use write.table to output txt file
 
